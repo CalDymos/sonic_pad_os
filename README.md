@@ -5,8 +5,8 @@ It is recommended to use Ubuntu 18.04 to compile sonic_pad_os
 3. run command ***git clone https://github.com/CalDymos/sonic_pad_os.git*** (download the code)
 4. run command ***cd sonic_pad_os***
 5. run command ***sudo ./relatedPacks.sh*** (installs all related Package dependencies)
-6. run command ***sudo ./dlPackages.sh*** (Downloads the dl packages and saves them in the directory sonic_pad_os/dl) 
-5. Enter the root directory of sonic_pad_os and execute the script ***./scripts/prepare.sh***
+6. run command ***./dlPackages.sh*** (Downloads the dl packages and saves them in the directory sonic_pad_os/dl) 
+5. run command ***./scripts/prepare.sh*** (prepare tools, arisc / brandy / cortana)
 4. Compile steps:
    - ***source build/envsetup.sh***
    - ***lunch 6***
