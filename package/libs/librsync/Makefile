@@ -13,8 +13,11 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_BUILD_DIR:=$(COMPILE_DIR)/$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/librsync/librsync.git
-PKG_MD5SUM:=12602fe9e59851de7fed2f757be0f359
+#PKG_SOURCE_URL:=https://github.com/librsync/librsync.git
+#PKG_MD5SUM:=12602fe9e59851de7fed2f757be0f359
+# change Url for release path
+PKG_SOURCE_URL:=https://github.com/librsync/librsync/releases/download/v$(PKG_VERSION)
+PKG_MD5SUM:=9a9925b14b2919a1c8c6e2d9f13c9f0b
 CMAKE_INSTALL:=1
 
 PKG_BUILD_PARALLEL:=1
