@@ -18,7 +18,9 @@ define Package/$(PKG_NAME)
   CATEGORY:=Multimedia
   DEPENDS:=+libstdcpp
   TITLE:=LIVE555 Streaming Media
-  URL:=http://www.live555.com/liveMedia/
+# URL:=http://www.live555.com/liveMedia/
+# Update URL
+  URL:=https://download.videolan.org/contrib/live555/
 endef
 
 define Package/$(PKG_NAME)/description
